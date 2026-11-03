@@ -1,0 +1,9 @@
+﻿department_id,department_code,department_name,department_email,description,head_staff_id,status
+DEPT-CSE,CSE,Computer Science,cse@edunex.example,Computing and software studies,STF-0001,ACTIVE
+DEPT-IT,IT,Information Technology,it@edunex.example,Information systems and technology,STF-0002,ACTIVE
+DEPT-ECE,ECE,Electronics and Communication,ece@edunex.example,Electronics and communication studies,STF-0003,ACTIVE
+DEPT-EEE,EEE,Electrical and Electronics,eee@edunex.example,Electrical engineering studies,STF-0004,ACTIVE
+DEPT-MECH,MECH,Mechanical Engineering,mech@edunex.example,Mechanical engineering studies,STF-0005,ACTIVE
+DEPT-CIVIL,CIVIL,Civil Engineering,civil@edunex.example,Civil and infrastructure studies,STF-0006,ACTIVE
+DEPT-BBA,BBA,Business Administration,bba@edunex.example,Business and management studies,STF-0007,ACTIVE
+DEPT-BCOM,BCOM,Commerce,bcom@edunex.example,Commerce and finance studies,STF-0008,ACTIVE

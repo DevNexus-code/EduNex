@@ -1,0 +1,42 @@
+{
+  "name": "edunex-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EDUNEX — Student & Staff Management System (Smart Academic Administration & Campus Management Platform)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:client": "npm run dev --workspace=client",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "db:validate": "npm run prisma --workspace=server -- validate",
+    "db:generate": "npm run prisma --workspace=server -- generate",
+    "db:push": "npm run prisma --workspace=server -- db push",
+    "bootstrap": "npx tsx server/scripts/bootstrap-admin.ts"
+  },
+  "keywords": [
+    "edunex",
+    "student-management",
+    "staff-management",
+    "academics",
+    "school-management",
+    "college-erp",
+    "university-portal",
+    "typescript",
+    "react",
+    "express",
+    "prisma",
+    "supabase",
+    "firebase"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dataset_name": "edunex-student-staff-dataset-1000",
+  "version": "1.0",
+  "created_for": "EDUNEX Student & Staff Management System",
+  "synthetic_data": true,
+  "real_personal_data": false,
+  "files": {
+    "departments.csv": 8,
+    "staff.csv": 30,
+    "courses.csv": 12,
+    "subjects.csv": 48,
+    "class_sections.csv": 33,
+    "students.csv": 200,
+    "student_enrollments.csv": 200,
+    "student_attendance.csv": 2000,
+    "staff_attendance.csv": 240,
+    "fee_structures.csv": 12,
+    "fee_payments.csv": 200,
+    "examinations.csv": 3,
+    "student_marks.csv": 1800,
+    "announcements.csv": 25,
+    "edunex-student-staff-dataset-1000.jsonl": 1000
+  },
+  "notes": [
+    "All people, emails, mobile numbers, records and references are fictional test data.",
+    "Email addresses use the reserved .example domain and are not real mailboxes.",
+    "Do not import directly into production without mapping columns to the actual Prisma schema.",
+    "JSONL uses messages format with system, user and assistant roles; confirm your AI platform's expected schema before upload."
+  ]
+}

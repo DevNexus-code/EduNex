@@ -1,0 +1,13 @@
+﻿course_id,course_code,course_name,department_id,duration_years,course_level,status
+COURSE-BSC-CS,BSC-CS,B.Sc. Computer Science,DEPT-CSE,3,UG,ACTIVE
+COURSE-BCA,BCA,Bachelor of Computer Applications,DEPT-CSE,3,UG,ACTIVE
+COURSE-MSC-CS,MSC-CS,M.Sc. Computer Science,DEPT-CSE,2,PG,ACTIVE
+COURSE-BSC-IT,BSC-IT,B.Sc. Information Technology,DEPT-IT,3,UG,ACTIVE
+COURSE-BE-ECE,BE-ECE,B.E. Electronics and Communication,DEPT-ECE,4,UG,ACTIVE
+COURSE-BE-EEE,BE-EEE,B.E. Electrical and Electronics,DEPT-EEE,4,UG,ACTIVE
+COURSE-BE-MECH,BE-MECH,B.E. Mechanical Engineering,DEPT-MECH,4,UG,ACTIVE
+COURSE-BE-CIVIL,BE-CIVIL,B.E. Civil Engineering,DEPT-CIVIL,4,UG,ACTIVE
+COURSE-BBA,BBA,Bachelor of Business Administration,DEPT-BBA,3,UG,ACTIVE
+COURSE-BCOM,BCOM,Bachelor of Commerce,DEPT-BCOM,3,UG,ACTIVE
+COURSE-MBA,MBA,Master of Business Administration,DEPT-BBA,2,PG,ACTIVE
+COURSE-MCOM,MCOM,Master of Commerce,DEPT-BCOM,2,PG,ACTIVE

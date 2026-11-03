@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: nexdesk-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: nexdesk_user
+      POSTGRES_PASSWORD: nexdesk_dev_password
+      POSTGRES_DB: nexdesk_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - nexdesk_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nexdesk_user -d nexdesk_dev"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  nexdesk_pgdata:
+    name: nexdesk_pgdata

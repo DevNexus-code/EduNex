@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.assetsRouter = void 0;
+const express_1 = require("express");
+const assets_controller_js_1 = require("./assets.controller.js");
+const auth_js_1 = require("../../common/middleware/auth.js");
+const validateRequest_js_1 = require("../../common/middleware/validateRequest.js");
+const assets_schemas_js_1 = require("./assets.schemas.js");
+const client_1 = require("@prisma/client");
+exports.assetsRouter = (0, express_1.Router)();
+exports.assetsRouter.use(auth_js_1.authenticate);
+exports.assetsRouter.get('/licenses', assets_controller_js_1.listLicensesController);
+exports.assetsRouter.post('/licenses/:id/allocate', (0, auth_js_1.requireRole)([client_1.Role.TEAM_LEAD, client_1.Role.ADMIN]), (0, validateRequest_js_1.validateRequest)({ body: assets_schemas_js_1.allocateLicenseSchema }), assets_controller_js_1.allocateLicenseController);
+exports.assetsRouter.get('/', assets_controller_js_1.listAssetsController);
+exports.assetsRouter.post('/', (0, auth_js_1.requireRole)([client_1.Role.IT_AGENT, client_1.Role.TEAM_LEAD, client_1.Role.ADMIN]), (0, validateRequest_js_1.validateRequest)({ body: assets_schemas_js_1.createAssetSchema }), assets_controller_js_1.createAssetController);
+exports.assetsRouter.get('/:id', assets_controller_js_1.getAssetByIdController);
+exports.assetsRouter.post('/:id/assign', (0, auth_js_1.requireRole)([client_1.Role.IT_AGENT, client_1.Role.TEAM_LEAD, client_1.Role.ADMIN]), (0, validateRequest_js_1.validateRequest)({ body: assets_schemas_js_1.assignAssetSchema }), assets_controller_js_1.assignAssetController);
+exports.assetsRouter.post('/:id/return', (0, auth_js_1.requireRole)([client_1.Role.IT_AGENT, client_1.Role.TEAM_LEAD, client_1.Role.ADMIN]), (0, validateRequest_js_1.validateRequest)({ body: assets_schemas_js_1.returnAssetSchema }), assets_controller_js_1.returnAssetController);

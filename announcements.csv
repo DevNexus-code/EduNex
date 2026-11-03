@@ -1,0 +1,26 @@
+﻿announcement_id,title,message,audience,department_id,published_date,status
+ANN-0001,Campus Event Announcement,This is fictional sample announcement content for testing the EDUNEX announcement module.,STAFF,,2025-07-06,PUBLISHED
+ANN-0002,Academic Calendar Notice,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,,2025-07-11,PUBLISHED
+ANN-0003,Fee Payment Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,STUDENTS,DEPT-BBA,2025-07-16,PUBLISHED
+ANN-0004,Scholarship Application Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,STAFF,,2025-07-21,PUBLISHED
+ANN-0005,Fee Payment Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,STUDENTS,,2025-07-26,PUBLISHED
+ANN-0006,Scholarship Application Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,STUDENTS,DEPT-BBA,2025-07-31,PUBLISHED
+ANN-0007,Library Schedule Update,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,,2025-08-05,PUBLISHED
+ANN-0008,Library Schedule Update,This is fictional sample announcement content for testing the EDUNEX announcement module.,STUDENTS,,2025-08-10,PUBLISHED
+ANN-0009,Semester Examination Notice,This is fictional sample announcement content for testing the EDUNEX announcement module.,STUDENTS,DEPT-MECH,2025-08-15,PUBLISHED
+ANN-0010,Campus Event Announcement,This is fictional sample announcement content for testing the EDUNEX announcement module.,TEACHERS,,2025-08-20,PUBLISHED
+ANN-0011,Attendance Advisory,This is fictional sample announcement content for testing the EDUNEX announcement module.,TEACHERS,,2025-08-25,PUBLISHED
+ANN-0012,Campus Event Announcement,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,DEPT-EEE,2025-08-30,PUBLISHED
+ANN-0013,Library Schedule Update,This is fictional sample announcement content for testing the EDUNEX announcement module.,STAFF,,2025-09-04,PUBLISHED
+ANN-0014,Library Schedule Update,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,,2025-09-09,PUBLISHED
+ANN-0015,Scholarship Application Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,STAFF,DEPT-ECE,2025-09-14,PUBLISHED
+ANN-0016,Fee Payment Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,,2025-09-19,PUBLISHED
+ANN-0017,Fee Payment Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,TEACHERS,,2025-09-24,PUBLISHED
+ANN-0018,Academic Calendar Notice,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,DEPT-CSE,2025-09-29,PUBLISHED
+ANN-0019,Academic Calendar Notice,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,,2025-10-04,PUBLISHED
+ANN-0020,Scholarship Application Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,STAFF,,2025-10-09,PUBLISHED
+ANN-0021,Academic Calendar Notice,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,DEPT-BBA,2025-10-14,PUBLISHED
+ANN-0022,Scholarship Application Reminder,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,,2025-10-19,PUBLISHED
+ANN-0023,Campus Event Announcement,This is fictional sample announcement content for testing the EDUNEX announcement module.,STUDENTS,,2025-10-24,PUBLISHED
+ANN-0024,Library Schedule Update,This is fictional sample announcement content for testing the EDUNEX announcement module.,ALL,DEPT-IT,2025-10-29,PUBLISHED
+ANN-0025,Attendance Advisory,This is fictional sample announcement content for testing the EDUNEX announcement module.,STAFF,,2025-11-03,PUBLISHED

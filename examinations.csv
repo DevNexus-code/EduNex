@@ -1,0 +1,4 @@
+﻿examination_id,examination_name,academic_year,exam_type,start_date,end_date,status
+EXM-2025-UNIT1,Unit Test 1,2025-2026,INTERNAL,2025-09-01,2025-09-05,COMPLETED
+EXM-2025-MID,Mid Semester Examination,2025-2026,MIDTERM,2025-11-10,2025-11-20,SCHEDULED
+EXM-2026-SEM,Semester Examination,2025-2026,FINAL,2026-03-10,2026-03-25,SCHEDULED

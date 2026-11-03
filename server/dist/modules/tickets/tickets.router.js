@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ticketsRouter = void 0;
+const express_1 = require("express");
+const tickets_controller_js_1 = require("./tickets.controller.js");
+const auth_js_1 = require("../../common/middleware/auth.js");
+const validateRequest_js_1 = require("../../common/middleware/validateRequest.js");
+const tickets_schemas_js_1 = require("./tickets.schemas.js");
+exports.ticketsRouter = (0, express_1.Router)();
+exports.ticketsRouter.use(auth_js_1.authenticate);
+exports.ticketsRouter.get('/', (0, validateRequest_js_1.validateRequest)({ query: tickets_schemas_js_1.ticketQuerySchema }), tickets_controller_js_1.listTicketsController);
+exports.ticketsRouter.post('/', (0, validateRequest_js_1.validateRequest)({ body: tickets_schemas_js_1.createTicketSchema }), tickets_controller_js_1.createTicketController);
+exports.ticketsRouter.get('/:id', tickets_controller_js_1.getTicketByIdController);
+exports.ticketsRouter.patch('/:id', (0, validateRequest_js_1.validateRequest)({ body: tickets_schemas_js_1.updateTicketSchema }), tickets_controller_js_1.updateTicketController);
+exports.ticketsRouter.post('/:id/comments', (0, validateRequest_js_1.validateRequest)({ body: tickets_schemas_js_1.addCommentSchema }), tickets_controller_js_1.addCommentController);
